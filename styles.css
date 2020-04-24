@@ -1,0 +1,280 @@
+html, body {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+ul, p {
+    margin: 0;
+}
+p {
+    line-height: 1.5;
+}
+/* mobile first*/
+
+.logo-box {
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 15px;
+    top: 45px;
+}
+
+.logo {
+    height: 35px;
+}
+.main_header {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 15px;
+    top: 187px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    
+    color: #393939; 
+}
+.inbound-card {
+    position: absolute;
+    width: 160px;
+    height: 116px;
+    left: 15px;
+    top: 367px;
+}
+.card {
+    height: 50%;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.25);
+}
+.background-img {
+    position: absolute;
+    width: 376px;
+    height: 250px;
+    left: -117px;
+    top: 280px;
+    z-index: -2;
+}
+.article_items {
+    position: absolute;
+    top: -140px;
+}
+.article_heading {
+    position: absolute;
+    width: 345px;
+    height: 49px;
+    left: 15px;
+    top: 862px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.article_info_one {
+    position: absolute;
+    z-index: 1;
+    width: 230px;
+    height: 48px;
+    left: 40px;
+    top: 25px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    
+    letter-spacing: 0.447369px;
+    
+    color: #393939;
+}
+.article_info_two {
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    left: 40px;
+    top: 25px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    
+    letter-spacing: 0.447369px;     
+}
+.article_info_three {
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    left: 40px;
+    top: 25px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    
+    letter-spacing: 0.447368px;
+}
+.info_cards_one {
+    position: absolute;
+    width: 345px;
+    height: 105px;
+    left: 15px;
+    top: 991px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.info_cards_two {
+    position: absolute;
+    width: 345px;
+    height: 105px;
+    left: 15px;
+    top: 1117px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.info_cards_three {
+    position: absolute;
+    width: 345px;
+    height: 105px;
+    left: 15px;
+    top: 1243px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.section_dashboard {
+    position: absolute;
+    top: -100px;
+}
+.section_header {
+    position: absolute;
+    width: 306px;
+    height: 63px;
+    left: 34px;
+    top: 1873px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+.footer_header {
+    position: absolute;
+    height: 62px;
+    left: 18.69%;
+    right: 18.69%;
+    top: 2400px;
+    
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+/* blocks */
+
+.checkboxes {
+    position: absolute;
+    width: 16px;
+    height: 57px;
+    left: 260px;
+    top: 0px;
+}
+.integrations {
+    position: absolute;
+    width: 20px;
+    height: 62px;
+    left: 260px;
+    top: -5px;
+}
+.notifications {
+    position: absolute;
+    width: 19px;
+    height: 57.35px;
+    left: 260px;
+    top: 0px;
+}
+.dashboard {
+    position: absolute;
+    width: 345px;
+    height: 245px;
+    left: 15px;
+    top: 1428px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.25);
+}
+.slack {
+    position: absolute;
+    width: 115px;
+    height: 33.16px;
+    left: 15px;
+    top: 2019px;
+}
+.trello {
+    position: absolute;
+    width: 115px;
+    height: 35.08px;
+    left: 245px;
+    top: 2017px;
+}
+.asana {
+    position: absolute;
+    width: 152.8px;
+    height: 105.95px;
+    left: 110.83px;
+    top: 2180px;
+}
+.jira {
+    position: absolute;
+    width: 115px;
+    height: 40.46px;
+    left: 245px;
+    top: 2092px;
+}
+.google {
+    position: absolute;
+    width: 115px;
+    height: 47.92px;
+    left: 15px;
+    top: 2092px;
+}
+label {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border-radius: 34.5px;
+}
